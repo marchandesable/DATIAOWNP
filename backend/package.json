@@ -1,0 +1,27 @@
+{
+  "name": "datiaownp-backend",
+  "version": "0.1.0",
+  "description": "Backend MVP pour le projet DATIAOWNP (collecte de données anonymisées).",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "datiaownp",
+    "backend",
+    "node",
+    "express",
+    "mvp"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.0",
+    "express": "^4.19.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
