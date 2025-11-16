@@ -1,0 +1,53 @@
+# --- System / OS ---
+.DS_Store
+Thumbs.db
+
+# --- VS Code / VS Codium ---
+.vscode/
+*.code-workspace
+
+# --- Node.js / JS ---
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-lock.yaml
+package-lock.json
+
+# --- Python ---
+__pycache__/
+*.pyc
+
+# --- Builds / dist / cache ---
+dist/
+build/
+.cache/
+.tmp/
+.next/
+
+# --- Environnements / secrets ---
+.env
+.env.local
+.env.*.local
+
+# --- Exports lourds (générés) ---
+exports/
+*.pdf
+*.pptx
+*.zip
+
+# --- Smart contracts (artifacts compilés) ---
+artifacts/
+cache/
+typechain/
+coverage/
+
+# --- Frontend maps ---
+*.map
+
+# --- Mobile app ---
+android/
+ios/
+*.keystore
+
+# --- Sauvegardes éditeur ---
+*~
